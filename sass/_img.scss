@@ -1,0 +1,29 @@
+.lineups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .lineups img {
+        width: 300px;
+        height: auto;
+        margin: 10px;
+        border-radius: 10px;
+    }
+}
+
+.imgInfo {
+    width: 75%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+
+}
+
+.imginicio {
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}

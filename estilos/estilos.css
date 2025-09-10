@@ -157,4 +157,10 @@ body {
   color: #fff;
 }
 
+@media (max-width: 480px) {
+  .logo {
+    width: 300px;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */

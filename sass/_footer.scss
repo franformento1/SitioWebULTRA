@@ -1,3 +1,4 @@
+@use "./variables";
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +7,15 @@
 }
 
 footer {
-    background-color: #000000;
-    color: white;
+    background-color: variables.$negro;
+    color: variables.$blanco;
     list-style: none;
 
     .footer-nav {
         list-style: none;
+        display: flex;
+        margin: 5px;
+        justify-content: space-around;
 
         .ig {
             width: 30px;
@@ -22,5 +26,13 @@ footer {
             width: 30px;
             height: auto;
         }
+
+    }
+
+    .copy {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 5px;
     }
 }

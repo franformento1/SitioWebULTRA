@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -63,4 +65,13 @@ body {
 .article-card .title {
     font-size: 17px;
     color: #fff;
+}
+
+.cardsInicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
 }

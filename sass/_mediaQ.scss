@@ -1,6 +1,7 @@
 @media (max-width: 480px) {
   .logo {
-    width: 300px;
+    width: 250px;
+
   }
 
   .imgCarr {
@@ -8,5 +9,101 @@
     margin: auto;
     display: block;
     padding: 10px;
+  }
+
+  .lineups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+
+    .line1 {
+      width: 70%;
+      height: auto;
+    }
+
+    .line2 {
+      width: 70%;
+      height: auto;
+    }
+
+    .line3 {
+      width: 70%;
+      height: auto;
+    }
+
+    .line4 {
+      width: 70%;
+      height: auto;
+    }
+  }
+
+  .spotify {
+    padding: 10px;
+  }
+
+  .carousel-control-next {
+    width: 25%;
+  }
+
+  .carousel-control-prev {
+    width: 25%;
+
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+
+
+  .imgCarr {
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+  }
+
+  .lineups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+    .line1 {
+      width: 50%;
+      height: auto;
+    }
+
+    .line2 {
+      width: 50%;
+      height: auto;
+    }
+
+    .line3 {
+      width: 50%;
+      height: auto;
+    }
+
+    .line4 {
+      width: 50%;
+      height: auto;
+    }
+  }
+
+  .spotify {
+    padding: 10px;
+  }
+
+  .carousel-control-next {
+    width: 40%;
+  }
+
+  .carousel-control-prev {
+    width: 40%;
+
   }
 }

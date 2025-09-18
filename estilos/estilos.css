@@ -90,6 +90,13 @@ footer .footer-nav .x {
   padding: 20px;
 }
 
+.imgCarr {
+  width: 40%;
+  margin: auto;
+  display: block;
+  padding: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -160,6 +167,12 @@ body {
 @media (max-width: 480px) {
   .logo {
     width: 300px;
+  }
+  .imgCarr {
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding: 10px;
   }
 }
 

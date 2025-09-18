@@ -1,4 +1,5 @@
 @use "./variables";
+
 * {
     margin: 0;
     padding: 0;
@@ -35,4 +36,13 @@ footer {
         justify-content: center;
         margin: 5px;
     }
+}
+
+.sub {
+    font-family: variables.$font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    gap: 10px;  
 }

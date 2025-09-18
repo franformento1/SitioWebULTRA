@@ -81,6 +81,15 @@ footer .copy {
   margin: 5px;
 }
 
+.sub {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  gap: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -110,18 +119,34 @@ footer .copy {
 .lineups .line1 {
   width: 25%;
   height: auto;
+  transition: transform 0.2s;
+}
+.lineups .line1:hover {
+  transform: scale(1.05);
 }
 .lineups .line2 {
-  width: 30%;
+  width: 31%;
   height: auto;
+  transition: transform 0.2s;
+}
+.lineups .line2:hover {
+  transform: scale(1.05);
 }
 .lineups .line3 {
   width: 15%;
   height: auto;
+  transition: transform 0.2s;
+}
+.lineups .line3:hover {
+  transform: scale(1.05);
 }
 .lineups .line4 {
-  width: 20%;
+  width: 21%;
   height: auto;
+  transition: transform 0.2s;
+}
+.lineups .line4:hover {
+  transform: scale(1.05);
 }
 
 .imgInfo {
@@ -279,6 +304,11 @@ body {
   .carousel-control-prev {
     width: 25%;
   }
+  .sub {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
 @media (min-width: 481px) and (max-width: 1023px) {
   .imgCarr {
@@ -319,6 +349,15 @@ body {
   }
   .carousel-control-prev {
     width: 40%;
+  }
+  .sub {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .button {
+    margin: 5px;
+    padding: 10px;
   }
 }
 
